@@ -1,4 +1,4 @@
-package com.example.project1.view.fragment
+package com.example.dogapp.view.fragment
 
 import android.os.Bundle
 import android.util.Log
@@ -11,10 +11,10 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.project1.R
-import com.example.project1.databinding.FragmentHomeBinding
-import com.example.project1.view.adapter.AppointmentAdapter
-import com.example.project1.viewmodel.AppointmentViewModel
+import com.example.dogapp.R
+import com.example.dogapp.databinding.FragmentHomeBinding
+import com.example.dogapp.view.adapter.AppointmentAdapter
+import com.example.dogapp.viewmodel.AppointmentViewModel
 
 class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding

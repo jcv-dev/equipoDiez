@@ -1,12 +1,12 @@
-package com.example.project1.view.adapter
+package com.example.dogapp.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.project1.databinding.CardAppointmentBinding
-import com.example.project1.model.Appointment
-import com.example.project1.view.viewholder.AppointmentViewHolder
+import com.example.dogapp.databinding.CardAppointmentBinding
+import com.example.dogapp.model.Appointment
+import com.example.dogapp.view.viewholder.AppointmentViewHolder
 
 class AppointmentAdapter(private val listAppointment:MutableList<Appointment>, private val navController: NavController):RecyclerView.Adapter<AppointmentViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AppointmentViewHolder {

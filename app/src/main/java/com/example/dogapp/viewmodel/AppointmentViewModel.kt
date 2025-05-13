@@ -1,4 +1,4 @@
-package com.example.project1.viewmodel
+package com.example.dogapp.viewmodel
 
 import android.app.Application
 import android.util.Log
@@ -6,8 +6,8 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.project1.model.Appointment
-import com.example.project1.repository.AppointmentRepository
+import com.example.dogapp.model.Appointment
+import com.example.dogapp.repository.AppointmentRepository
 import kotlinx.coroutines.launch
 //import com.example.project1.model.BreedResponse
 

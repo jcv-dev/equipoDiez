@@ -1,4 +1,4 @@
-package com.example.project1.model
+package com.example.dogapp.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
