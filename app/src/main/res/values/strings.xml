@@ -3,4 +3,6 @@
     <string name="autenticaci_n_con_biometr_a">Autenticación con biometría</string>
     <string name="ingrese_su_huella_digital">Ingrese su huella digital</string>
     <string name="cancelar">Cancelar</string>
+    <string name="autenticaci_n_fallida">Autenticación Fallida</string>
+    <string name="dogapp">DogApp</string>
 </resources>

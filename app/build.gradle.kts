@@ -1,7 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.compose)
+    id("kotlin-kapt")
+    id("androidx.navigation.safeargs.kotlin")
+
 }
 
 android {
@@ -35,7 +37,9 @@ android {
         jvmTarget = "11"
     }
     buildFeatures {
-        compose = true
+        compose = false
+        dataBinding = true
+        viewBinding = true
     }
 }
 
@@ -53,6 +57,8 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.biometric.ktx)
+    val lottieVersion = "3.4.0"
+    implementation("com.airbnb.android:lottie:$lottieVersion")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
