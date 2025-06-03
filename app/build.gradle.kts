@@ -77,7 +77,7 @@ dependencies {
     implementation("androidx.fragment:fragment-ktx:$fragment_version")
 
     //User interface components
-    val materialVersion= "1.4.0"
+    val materialVersion= "1.9.0"
     implementation("com.google.android.material:material:$materialVersion")
 
     //retrofit library
