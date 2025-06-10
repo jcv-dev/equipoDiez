@@ -45,7 +45,7 @@
         tools:layout="@layout/fragment_date_detail" >
         <action
         android:id="@+id/action_detailFragment_to_editAppointmentFragment"
-        app:destination="@id/homeFragment" />
+        app:destination="@id/editAppointmentFragment" />
         <action
         android:id="@+id/action_detailFragment_to_homeFragment"
         app:destination="@id/homeFragment" />
