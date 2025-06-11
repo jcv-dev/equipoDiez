@@ -9,7 +9,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.dogapp.model.Appointment
 import com.example.dogapp.repository.AppointmentRepository
 import kotlinx.coroutines.launch
-import com.example.dogapp.model.BreedResponse
+//import com.example.dogapp.model.BreedResponse
 
 class AppointmentViewModel (application: Application) : AndroidViewModel(application) {
     val context = getApplication<Application>()
