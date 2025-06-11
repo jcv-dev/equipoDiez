@@ -30,6 +30,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.dogapp.R
 import com.example.dogapp.data.AppointmentDB
 import com.example.dogapp.databinding.FragmentCreateBinding
+import com.example.dogapp.retrofit.Breed
 import com.example.dogapp.retrofit.RetrofitClient
 import com.example.dogapp.model.Appointment
 import com.example.dogapp.retrofit.ImagenResponse
